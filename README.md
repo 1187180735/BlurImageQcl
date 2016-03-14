@@ -2,7 +2,11 @@
 本地图片或者网络图片高斯模糊效果（毛玻璃效果）
 
 #先看效果图
+##1，本地图片的高斯模糊
+![image](https://github.com/qiushi123/BlurImageQcl/blob/master/images/qcl1_meitu_1.jpg?raw=true) 
 
+##2，网络图片的高斯模糊
+![image](https://github.com/qiushi123/BlurImageQcl/blob/master/images/qcl2_meitu_2.jpg?raw=true) 
 
 
 #使用步骤
@@ -32,7 +36,7 @@ public class FastBlurUtil {
     /**
      * 得到本地或者网络上的bitmap url - 网络或者本地图片的绝对路径,比如:
      * <p>
-     * A.网络路径: url="http://blog.foreverlove.us/girl2.png" ;
+     * A.网络路径: url="http://blog.foreverlove.us/girl2.png" ;这个网址可能过时，可以自己到网上找图片网址试试
      * <p>
      * B.本地路径:url="file://mnt/sdcard/photo/image.png";
      * <p>
